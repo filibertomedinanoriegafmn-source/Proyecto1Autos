@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    
+    font-family: Arial, Helvetica, sans-serif ;
+    margin: 0;
+padding: 0;
+width: 100%;
+min-height: 100%;
+
+}
+#container{
+    width:100%;
+    margin: 0px auto;
+  height: 100vh;
+}
+
+nav ul li {
+    float: right;
+    list-style: none;
+    line-height: 50 px;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: black;
+
+}
+.foto{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+    transform:translateY(-6px) ;
+}
+.cuadros{
+  
+    line-height: 1;
+    font-size: 30px;
+    display:grid;
+    grid-template-colums: repeat(3,4px);
+    gap: 3px;
+    align-self: center;
+    transform: translateY(-6px);
+
+
+}
+
+.clearfix{
+    clear: both;
+
+}
+
+nav a{
+   
+    height: 10%;
+    color: #000;
+    text-decoration: none;
+    
+}
+
+
+aside{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 80%;
+
+
+}
+
+FORM{
+    margin: 30PX;
+
+
+}
+
+.buscadores{
+    margin-top: 25px;
+    display: flex;
+flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+#text:focus{
+    outline: none;
+}
+#text{
+     border: none;
+    
+    
+    
+    margin: 25px;
+    width: 60px;
+    
+}
+.autos{
+    margin-top: 5px;
+}
+
+.buscador{
+    position: relative;
+    display: inline;
+}
+
+
+
+
+#buscar{
+     
+    color: rgb(34, 32, 32);
+}
+h1{
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 100px;
+   letter-spacing: 0;
+   color: aqua;
+}
+
+footer{
+    background: rgb(223, 221, 226);
+    color: black;
+    text-align: center;
+    height: 10%;
+    line-height: 20px;
+    width:100% ;
+    min-height: 50px;
+}
+.pie1{
+    float: left;
+    list-style: none;
+    line-height: 100 px;
+    margin: 0px;
+    color: #000;
+
+}
+.pie1 a{
+    color: black;
+}
