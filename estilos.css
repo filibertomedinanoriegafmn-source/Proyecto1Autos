@@ -107,7 +107,7 @@ flex-direction: column;
 
 .buscador{
     display: flex;
-     justify-content: center;
+    justify-content: center;
     width: 100vw;
     height: 5vw;
    
