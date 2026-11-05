@@ -9,7 +9,7 @@ font-family: Arial, Helvetica, sans-serif ;
 padding: 0;
 width: 100%;
 min-height: 100%;
-background-color: rgb(0, 255, 85);
+background-color: rgb(0, 225, 255);
 
 }
 nav.arriba{
@@ -83,7 +83,7 @@ FORM{
 }
 
 .buscadores{
-    margin-top: 25px;
+    margin-top: 2vw;
     display: flex;
 flex-direction: column;
     align-items: center;
@@ -95,11 +95,10 @@ flex-direction: column;
 }
 #text{
      border: none;
-    
-    
-    
-    margin: 25px;
-    width: 60px;
+     border-radius: 10%;
+    width: 70vw;
+    justify-content: center;
+    height: 5vw;
     
 }
 .autos{
@@ -107,26 +106,43 @@ flex-direction: column;
 }
 
 .buscador{
-    position: relative;
-    display: inline;
+    display: flex;
+     justify-content: center;
+    width: 100vw;
+    height: 5vw;
+   
 }
 
 
 
 
 #buscar{
-     
+      justify-content: center;
     color: rgb(34, 32, 32);
+    width: 40vw;
+    height: 4vw;
+     border-radius: 50%;
+     cursor: pointer;
+    
 }
 h1{
+    text-align: center;
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   font-size: 5vw;
+   font-size: 10vw;
    letter-spacing: 0;
    color: rgb(228, 223, 223);
 }
+h2{
+    text-align: center;
+    font-size: 5vw;
+}
+h3{
+text-align: center;
+font-size: 2vw;
+}
 .fotocarros{
-    width:100% ;
-    max-width: 100%;
+    width: 100vw;
+    height: 50vw;
   
 }
 
