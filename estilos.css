@@ -19,6 +19,7 @@ nav.arriba{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+  
     
    
 }
@@ -35,6 +36,7 @@ nav.arriba{
     flex-direction: row;
     gap: 3vw;
     align-items: center;
+    
 
 }
 .arriba2{
@@ -47,7 +49,7 @@ nav.arriba{
 }
 a{
    text-decoration: none;
-   font-size: 3vw;  
+   font-size: 4vw;  
 
 }
 
@@ -75,7 +77,45 @@ align-items: center;
 
 
 }
-
+.catalogo{
+    display: grid;
+    grid-template-columns: auto auto;
+    border-top: 20vh;
+}
+.carro1{
+    margin-top: 3vh;
+  width: 100%; 
+  height: 60vh; 
+}
+span{
+    color: rgb(29, 5, 117);
+    cursor: pointer;
+}
+.especial{
+     display: grid;
+    grid-template-columns: auto auto;
+    border-top: 30vh;
+   
+}
+.carroEspecial{
+ width: 50vw; 
+  height: 70%; 
+  margin-top: 3vh;
+}
+.modificaciones{
+     display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+#contactanos{
+      width: 40vw;
+    height: 6vw;
+     cursor: pointer;
+     font-size: large;
+}
+.contactanos{
+    display: flex;
+     justify-content: center;
+}
 FORM{
     margin: 30PX;
 
@@ -95,10 +135,11 @@ flex-direction: column;
 }
 #text{
      border: none;
-     border-radius: 10%;
+     border-radius: 1vw;
     width: 70vw;
     justify-content: center;
     height: 5vw;
+     font-size: large;
     
 }
 .autos{
@@ -120,9 +161,10 @@ flex-direction: column;
       justify-content: center;
     color: rgb(34, 32, 32);
     width: 40vw;
-    height: 4vw;
-     border-radius: 50%;
+    height: 5vw;
+     border-radius: 2vw;
      cursor: pointer;
+      font-size: large;
     
 }
 h1{
@@ -140,6 +182,9 @@ h3{
 text-align: center;
 font-size: 2vw;
 }
+h4{
+  text-align: center;  
+}
 .fotocarros{
     width: 100vw;
     height: 50vw;
@@ -154,14 +199,8 @@ footer{
     align-items: center;
     width: 100%;
 }
-.pie1{
-    float: left;
-    list-style: none;
-    line-height: 100 px;
-    margin: 0px;
-    color: #000;
+.logos{
+    width: 5vw;
+    height: 5vh;
 
-}
-.pie1 a{
-    color: black;
 }
